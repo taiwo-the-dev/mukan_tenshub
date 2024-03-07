@@ -28,7 +28,7 @@ export default function RootLayout({
       <Head>
         <title>TensorPro</title>
         <meta name="description" content="TensorPro offers easy access to distributed computing and secure cloud storage, abstracting complexity for all users. Harness global CPU/GPU power to run demanding workloads and store files reliably. Browse privately, become a hosting node to earn rewards, and tap the full potential of distributed systems through one intuitive platform." />
-        <meta property="og:image" content="./opengraph-image.jpg"></meta>
+        <meta property="og:image" content="/opengraph-image.jpg"></meta>
         <meta property="og:url" content="https://tensor-pro.com/"></meta>
         <meta property="og:title" content="TensorPro"></meta>
         <meta property="og:description" content="TensorPro offers easy access to distributed computing and secure cloud storage, abstracting complexity for all users. Harness global CPU/GPU power to run demanding workloads and store files reliably. Browse privately, become a hosting node to earn rewards, and tap the full potential of distributed systems through one intuitive platform." />
