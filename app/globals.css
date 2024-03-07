@@ -1,0 +1,216 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #fdfdfd;
+  background: #010214;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url(../public/fonts/JetBrainsMonoNL.ttf);
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  src: url(../public/fonts/Segoe\ UI.ttf);
+}
+
+@font-face {
+  font-family: "TWKEverett";
+  src: url(../public/fonts/TWKEverett-Regular.otf);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .clip {
+    clip-path: polygon(
+      0% 91.197%,
+      0% 10.346%,
+      0% 10.346%,
+      0.039% 8.966%,
+      0.152% 7.656%,
+      0.333% 6.435%,
+      0.576% 5.32%,
+      0.874% 4.328%,
+      1.222% 3.478%,
+      1.613% 2.786%,
+      2.042% 2.27%,
+      2.501% 1.947%,
+      2.985% 1.836%,
+      85.422% 1.836%,
+      85.422% 1.836%,
+      85.635% 1.857%,
+      85.846% 1.922%,
+      86.054% 2.029%,
+      86.258% 2.176%,
+      86.458% 2.365%,
+      86.653% 2.593%,
+      86.842% 2.86%,
+      87.024% 3.165%,
+      87.199% 3.507%,
+      87.366% 3.886%,
+      98.958% 32.236%,
+      98.958% 32.236%,
+      99.148% 32.742%,
+      99.32% 33.29%,
+      99.475% 33.875%,
+      99.611% 34.493%,
+      99.727% 35.141%,
+      99.824% 35.815%,
+      99.9% 36.511%,
+      99.955% 37.225%,
+      99.989% 37.955%,
+      100% 38.696%,
+      100% 91.197%,
+      100% 91.197%,
+      99.961% 92.578%,
+      99.848% 93.887%,
+      99.667% 95.109%,
+      99.424% 96.224%,
+      99.126% 97.215%,
+      98.778% 98.066%,
+      98.387% 98.758%,
+      97.958% 99.274%,
+      97.499% 99.597%,
+      97.015% 99.708%,
+      2.985% 99.708%,
+      2.985% 99.708%,
+      2.501% 99.597%,
+      2.042% 99.274%,
+      1.613% 98.758%,
+      1.222% 98.066%,
+      0.874% 97.215%,
+      0.576% 96.224%,
+      0.333% 95.109%,
+      0.152% 93.887%,
+      0.039% 92.578%,
+      0% 91.197%
+    );
+  }
+
+  .main-text {
+    background: linear-gradient(
+      90deg,
+      #57576f 0%,
+      #f8f8ff 67.63%,
+      #5a5c6b 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .tag {
+    border: 1px solid #483062;
+    background: linear-gradient(162deg, #010214 14.93%, #bea6ff 369.16%);
+  }
+
+  .primary-text {
+    background: linear-gradient(
+      90deg,
+      #f8f8ff 0%,
+      #4dcaff 28.75%,
+      #7c55e9 65.23%,
+      #402989 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .title-text {
+    background: var(
+      --Gradient-Primary,
+      linear-gradient(90deg, #c7b3f8 0%, #6c3bef 50%, #4223a1 100%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .config-text {
+    background: linear-gradient(90deg, #f8f8ff 37.86%, #5a5c6b 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* .buy-now {
+    position: relative;
+    background: 
+              linear-gradient(#ccc 0 0) padding-box;
+              linear-gradient(90deg, #FCFF74 0%, #FB6064 28.75%, #4DCAFF 65.23%, #814FFE 100%) border-box;
+    border: 5px solid transparent;
+    clip-path: polygon( 0% 91.197%,0% 10.346%,0% 10.346%,0.039% 8.966%,0.152% 7.656%,0.333% 6.435%,0.576% 5.32%,0.874% 4.328%,1.222% 3.478%,1.613% 2.786%,2.042% 2.27%,2.501% 1.947%,2.985% 1.836%,85.422% 1.836%,85.422% 1.836%,85.635% 1.857%,85.846% 1.922%,86.054% 2.029%,86.258% 2.176%,86.458% 2.365%,86.653% 2.593%,86.842% 2.86%,87.024% 3.165%,87.199% 3.507%,87.366% 3.886%,98.958% 32.236%,98.958% 32.236%,99.148% 32.742%,99.32% 33.29%,99.475% 33.875%,99.611% 34.493%,99.727% 35.141%,99.824% 35.815%,99.9% 36.511%,99.955% 37.225%,99.989% 37.955%,100% 38.696%,100% 91.197%,100% 91.197%,99.961% 92.578%,99.848% 93.887%,99.667% 95.109%,99.424% 96.224%,99.126% 97.215%,98.778% 98.066%,98.387% 98.758%,97.958% 99.274%,97.499% 99.597%,97.015% 99.708%,2.985% 99.708%,2.985% 99.708%,2.501% 99.597%,2.042% 99.274%,1.613% 98.758%,1.222% 98.066%,0.874% 97.215%,0.576% 96.224%,0.333% 95.109%,0.152% 93.887%,0.039% 92.578%,0% 91.197% );
+  }
+  
+  .buy-now::after {
+    position: absolute;
+    background: linear-gradient(90deg, #FCFF74 0%, #FB6064 28.75%, #4DCAFF 65.23%, #814FFE 100%) border-box;
+    scale: 1.1;
+    border: 5px solid transparent;
+    clip-path: polygon( 0% 91.197%,0% 10.346%,0% 10.346%,0.039% 8.966%,0.152% 7.656%,0.333% 6.435%,0.576% 5.32%,0.874% 4.328%,1.222% 3.478%,1.613% 2.786%,2.042% 2.27%,2.501% 1.947%,2.985% 1.836%,85.422% 1.836%,85.422% 1.836%,85.635% 1.857%,85.846% 1.922%,86.054% 2.029%,86.258% 2.176%,86.458% 2.365%,86.653% 2.593%,86.842% 2.86%,87.024% 3.165%,87.199% 3.507%,87.366% 3.886%,98.958% 32.236%,98.958% 32.236%,99.148% 32.742%,99.32% 33.29%,99.475% 33.875%,99.611% 34.493%,99.727% 35.141%,99.824% 35.815%,99.9% 36.511%,99.955% 37.225%,99.989% 37.955%,100% 38.696%,100% 91.197%,100% 91.197%,99.961% 92.578%,99.848% 93.887%,99.667% 95.109%,99.424% 96.224%,99.126% 97.215%,98.778% 98.066%,98.387% 98.758%,97.958% 99.274%,97.499% 99.597%,97.015% 99.708%,2.985% 99.708%,2.985% 99.708%,2.501% 99.597%,2.042% 99.274%,1.613% 98.758%,1.222% 98.066%,0.874% 97.215%,0.576% 96.224%,0.333% 95.109%,0.152% 93.887%,0.039% 92.578%,0% 91.197% );
+  } */
+
+  .button-outer {
+    background-image: linear-gradient(
+      90deg,
+      #c7b3f8 0%,
+      #6c3bef 28.75%,
+      #4223a1 100%
+    );
+  }
+
+  .card {
+    display: flow-root;
+    position: relative;
+    padding: 1.3rem;
+    width: 350px;
+  }
+
+  .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 16px;
+    border: 1px solid transparent;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+  }
+
+  @keyframes slideInDown {
+    from {
+      transform: translateY(-1);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .slideInDown {
+    animation: slideInDown 0.5s ease-in-out;
+  }
+}
+
+.silver-text {
+  background: linear-gradient(90deg, #57576f -14.03%, #f8f8ff 58.85%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
