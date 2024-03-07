@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
-import logo from '@/images/logo.svg'
+import logo from '@/images/logo.png'
 import Link from 'next/link'
 
 const Header = () => {
@@ -50,7 +50,7 @@ const Header = () => {
     <header className={`transition-all duration-300 ease-in-out pt-[12px] pb-[16px] z-40 sticky top-0 md:px-[60px] px-[30px] flex items-center justify-between  w-full mx-auto font-jetbrains h-[74px] border-b border-[#353539]
      ${isOutOfView ? 'bg-[#000] backdrop-blur-[40px]' : 'bg-transparent'}
     `}>
-      <Image src={logo} alt='logo' />
+      <Image src={logo} alt='logo' width={120}/>
       <ul className='md:flex hidden items-center gap-[25px] h-full'>
         {menu.map((item, index) => (
           <li key={index} className='flex items-center gap-[25px] h-full  text-[14px] leading-[22px] font-medium silver-text   '>
