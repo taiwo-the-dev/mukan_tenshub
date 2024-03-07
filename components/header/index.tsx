@@ -74,7 +74,7 @@ const Header = () => {
               </Link>
             </li>
           ))}
-          <Link href='http://dapp.hubtensor.com/'>
+          <Link href='#'>
             <button className="rounded-full p-1 md:hidden flex w-fit justify-center mx-auto " style={{
               backgroundImage: "linear-gradient(90deg, #C7B3F8 0%, #6C3BEF 28.75%, #4223A1 100%)"
             }}>

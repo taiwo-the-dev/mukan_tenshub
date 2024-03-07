@@ -8,13 +8,13 @@ import Head from "next/head";
 
 
 export const metadata: Metadata = {
-  metadataBase : new URL("https://hubtensor.com/"),
-  title: "HubTensor",
-  description: "Hubtensor offers easy access to distributed computing and secure cloud storage, abstracting complexity for all users. Harness global CPU/GPU power to run demanding workloads and store files reliably. Browse privately, become a hosting node to earn rewards, and tap the full potential of distributed systems through one intuitive platform.",
+  metadataBase : new URL("https://tensor-pro.com/"),
+  title: "TensorPro",
+  description: "TensorPro offers easy access to distributed computing and secure cloud storage, abstracting complexity for all users. Harness global CPU/GPU power to run demanding workloads and store files reliably. Browse privately, become a hosting node to earn rewards, and tap the full potential of distributed systems through one intuitive platform.",
   openGraph: {
-    title: "HubTensor",
-    description: "Hubtensor offers easy access to distributed computing and secure cloud storage, abstracting complexity for all users. Harness global CPU/GPU power to run demanding workloads and store files reliably. Browse privately, become a hosting node to earn rewards, and tap the full potential of distributed systems through one intuitive platform.",
-    url: new URL("https://hubtensor.com/"),
+    title: "TensorPro",
+    description: "TensorPro offers easy access to distributed computing and secure cloud storage, abstracting complexity for all users. Harness global CPU/GPU power to run demanding workloads and store files reliably. Browse privately, become a hosting node to earn rewards, and tap the full potential of distributed systems through one intuitive platform.",
+    url: new URL("https://tensor-pro.com/"),
   },
 };
 
@@ -26,12 +26,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <title>HubTensor</title>
-        <meta name="description" content="Hubtensor offers easy access to distributed computing and secure cloud storage, abstracting complexity for all users. Harness global CPU/GPU power to run demanding workloads and store files reliably. Browse privately, become a hosting node to earn rewards, and tap the full potential of distributed systems through one intuitive platform." />
+        <title>TensorPro</title>
+        <meta name="description" content="TensorPro offers easy access to distributed computing and secure cloud storage, abstracting complexity for all users. Harness global CPU/GPU power to run demanding workloads and store files reliably. Browse privately, become a hosting node to earn rewards, and tap the full potential of distributed systems through one intuitive platform." />
         <meta property="og:image" content="./opengraph-image.jpg"></meta>
-        <meta property="og:url" content="https://hubtensor.com/"></meta>
-        <meta property="og:title" content="HubTensor"></meta>
-        <meta property="og:description" content="Hubtensor offers easy access to distributed computing and secure cloud storage, abstracting complexity for all users. Harness global CPU/GPU power to run demanding workloads and store files reliably. Browse privately, become a hosting node to earn rewards, and tap the full potential of distributed systems through one intuitive platform." />
+        <meta property="og:url" content="https://tensor-pro.com/"></meta>
+        <meta property="og:title" content="TensorPro"></meta>
+        <meta property="og:description" content="TensorPro offers easy access to distributed computing and secure cloud storage, abstracting complexity for all users. Harness global CPU/GPU power to run demanding workloads and store files reliably. Browse privately, become a hosting node to earn rewards, and tap the full potential of distributed systems through one intuitive platform." />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />

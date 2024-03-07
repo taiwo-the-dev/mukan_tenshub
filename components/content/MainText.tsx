@@ -7,7 +7,7 @@ function MainText() {
         backgroundClip: "text",
         WebkitBackgroundClip: "text",
         WebkitTextFillColor: "transparent"
-      }}>HubTensor.</span> A Blockchain-Powered<br />
+      }}>TensorPro.</span> A Blockchain-Powered<br />
       AI Infrastructure<br />
     </div>
   )

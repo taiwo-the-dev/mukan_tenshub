@@ -28,10 +28,10 @@ const Precofig = () => {
       <div className='w-[528px] h-[583.387px] absolute top-[108px] left-1/2 transform -translate-x-1/2 rounded-[583.387px] blur-[250px] bg-[radial-gradient(157.36%_118.62%_at_80.55%_8.29%,rgba(77,202,255,0.60)_0%,rgba(251,97,193,0.60)_57.6%,rgba(151,71,255,0.60)_100%)]'></div>
       <div className='flex items-start flex-col md:gap-[96px] gap-8'>
         <div className='flex flex-col gap-4'>
-          <Tag text={`HubTensor`} />
-          <h1 className='md:text-[48px] text-[32px] md:leading-[60px] leading-[48px] font-bold text-[#FDFDFD]'><span className='title-text'>HubTensor</span> Network</h1>
+          <Tag text={`TensorPro`} />
+          <h1 className='md:text-[48px] text-[32px] md:leading-[60px] leading-[48px] font-bold text-[#FDFDFD]'><span className='title-text'>TensorPro</span> Network</h1>
         </div>
-        <p className='md:text-[16px] text-[14px] md:leading-[23px] leading-[20px] text-[#FDFDFD] font-normal max-w-[380px]'>HubTensor unlocks decentralized computing by aggregating it into an accessible cloud platform, empowering intuitive development of resilient applications, and removing adoption barriers through a flexible, open global infrastructure.</p>
+        <p className='md:text-[16px] text-[14px] md:leading-[23px] leading-[20px] text-[#FDFDFD] font-normal max-w-[380px]'>TensorPro unlocks decentralized computing by aggregating it into an accessible cloud platform, empowering intuitive development of resilient applications, and removing adoption barriers through a flexible, open global infrastructure.</p>
       </div>
       
         <Board />

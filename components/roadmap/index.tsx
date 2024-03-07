@@ -13,8 +13,8 @@ function Roadmap() {
       description: [
         "Token Launch on Uniswap",
         "Release Dapp",
-        "Launch HubTensor Bot",
-        "Launching HubTensor Dashboard",
+        "Launch TensorPro Bot",
+        "Launching TensorPro Dashboard",
         "KOL Onboarding - Community Building"
       ],
     },
@@ -93,7 +93,7 @@ function Roadmap() {
         <Image src={Circles} alt="circle" className="absolute -z-10 hidden md:block" />
         <div className="flex flex-col items-center md:items-start lg:flex-row lg:justify-between px-16 py-44 lg:py-44 ">
           <div className="pb-20 lg:pb-0 md:py-48 space-y-4 flex flex-col items-center md:items-start">
-            <Tag text={`HubTensor`} />
+            <Tag text={`TensorPro`} />
             <div style={{
               background: "var(--Gradient-Primary, linear-gradient(90deg,#C7B3F8 0%,#6C3BEF 50%,#4223A1 100%))",
               backgroundClip: "text",

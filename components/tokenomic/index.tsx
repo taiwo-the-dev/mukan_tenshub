@@ -33,7 +33,7 @@ const Tokenomic = () => {
         <div className='w-[1320.167px] h-[522.078px] relative max-w-[1440px] md:mx-auto rounded-[60px] bg-[linear-gradient(180deg,rgba(5,5,29,0.00)_0%,#29176B_36.02%,#5F2FDA_59.89%,#906EF4_82.4%,#FFF_110.71%)] mt-[37px]'>
           <div className='flex flex-col gap-[87px]'>
             <div className='flex flex-col items-center justify-center gap-[16px]'>
-              <Tag text="HubTensor" />
+              <Tag text="TensorPro" />
               <h1 className='md:text-[48px] text-[32px] md:leading-[44px] leading-[40px]  title-text font-bold'>Tokenomic</h1>
             </div>
             <div className='flex items-center md:gap-[140px] gap-[32px] justify-center md:px-0 px-3'>
@@ -70,7 +70,7 @@ const Tokenomic = () => {
                 <div className="rounded-full bg-black flex items-center justify-center w-fit px-4 py-3 space-x-2" style={{
                   background: "linear-gradient(162deg, #010214 14.93%, #bea6ff 369.16%)"
                 }}>
-                  <span className="font-jetbrains text-white">HubTensor</span>
+                  <span className="font-jetbrains text-white">TensorPro</span>
                 </div>
               </div>
               <h1 className='font-segoe md:text-[48px] text-[32px] md:leading-[44px] leading-[40px] font-bold text-center text-[#FDFDFD]'><span className='title-text'>Enabling AI</span> Infrastructure<br />
