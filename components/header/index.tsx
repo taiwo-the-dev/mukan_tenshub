@@ -76,7 +76,7 @@ const Header = () => {
           ))}
           <Link href='#'>
             <button className="rounded-full p-1 md:hidden flex w-fit justify-center mx-auto " style={{
-              backgroundImage: "linear-gradient(90deg, #C7B3F8 0%, #6C3BEF 28.75%, #4223A1 100%)"
+              backgroundImage: "linear-gradient(90deg, rgba(22,255,0,1) 22%, rgba(189,255,0,1) 71%)"
             }}>
               <div className="bg-[#010214] rounded-full px-5 py-2 flex items-center gap-x-2">
                 <span>Start Now</span>
@@ -98,11 +98,11 @@ const Header = () => {
       </button>
       <Link href='#' className=" md:flex hidden">
         <button className="rounded-full p-[3px] md:flex hidden" style={{
-          backgroundImage: "linear-gradient(90deg, #C7B3F8 0%, #6C3BEF 28.75%, #4223A1 100%)"
+          backgroundImage: "linear-gradient(90deg, rgba(22,255,0,1) 22%, rgba(189,255,0,1) 71%)"
         }}>
           <div className="bg-[#010214] rounded-full px-5 py-2 flex items-center gap-x-2 ">
             <span style={{
-              background: "var(--Gradient-Primary, linear-gradient(180deg,#C7B3F8 0%,#6C3BEF 90%,#4223A1 100%))",
+              background: "var(--Gradient-Primary, linear-gradient(90deg, rgba(22,255,0,1) 22%, rgba(189,255,0,1) 71%)",
               backgroundClip: "text",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent"

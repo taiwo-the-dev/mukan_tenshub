@@ -33,23 +33,14 @@ function Mission() {
 
   return ( 
     <div
-      id="infrastructure"
-    style={{
-      backgroundImage: "url('/images/missionBackground.png')",
-      backgroundSize: "cover",
-    }} className="px-12 flex justify-center">
+      id="infrastructure" className="px-12 flex justify-center">
       <div className="max-w-[1440px]">
         <div className="border-y-2 border-[#353539] md:flex md:justify-between py-8 space-y-4">
           <div className="space-y-4">
             <div className="flex justify-center flex-col items-center gap-y-2 md:items-start">
               <Tag text={`TensorPro`} />
               <div className="text-3xl md:text-4xl lg:text-5xl font-segoe font-bold">
-                Our <span style={{
-                  background: "var(--Gradient-Primary, linear-gradient(90deg,#C7B3F8 0%,#6C3BEF 50%,#4223A1 100%))",
-                  backgroundClip: "text",
-                  WebkitBackgroundClip: "text",
-                  WebkitTextFillColor: "transparent"
-                }}>Infrastructure</span>
+                Our <span className="gradient-text">Infrastructure</span>
               </div>
             </div>
           </div>

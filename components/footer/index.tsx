@@ -76,7 +76,7 @@ const Footer = () => {
   return (
     <footer className='border-t border-[#353539] bg-[rgba(1,2,20,0.50)] backdrop-blur-[40px]'>
       <div className='py-[32px] md:px-[60px] px-[30px] max-w-[1440px] mx-auto flex flex-col gap-[58px] items-center justify-center  relative overflow-hidden'>
-        <div className='w-[699.262px] h-[84.279px] bg-[#6C3BEF] rounded-[699.262px] blur-[100px] absolute top-0 left-1/2 -translate-x-1/2' ></div>
+        
         <div className='flex md:flex-row flex-col md:gap-0 gap-[60px] w-full justify-between'>
           <div className='flex flex-col gap-[15px]'>
             <Image src={logo} alt="logo" />

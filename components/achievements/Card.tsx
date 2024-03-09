@@ -20,10 +20,7 @@ function Card({
     }}>
       <div>
         <div style={{
-          background: "linear-gradient(90deg, #FCA36E 0%, #FB61C1 100%)",
-          backgroundClip: "text",
-          WebkitBackgroundClip: "text",
-          WebkitTextFillColor: "transparent",
+          color: '#16ff00',
         }}>{tag}</div>
         <div className="text-2xl font-bold">{title}</div>
       </div>
